@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import SignIn from "./components/SignIn";
 
 const App = () => {
-	return <div>WELCOME</div>
-}
+  return (
+    <div>
+      <SignIn />
+    </div>
+  );
+};
 
-export default App
+export default App;
