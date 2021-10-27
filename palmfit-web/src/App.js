@@ -1,12 +1,13 @@
-import React from "react";
-import SignIn from "./components/SignIn";
+import React from 'react'
+import CalorieCalculatorModal from './components/modal/calorieCalculatorModal/calorieCalculatorModal'
 
 const App = () => {
-  return (
-    <div>
-      <SignIn />
-    </div>
-  );
-};
+	return (
+	<div className="font-Nunito">
+		<h2>Welcome</h2>
+		<CalorieCalculatorModal/>
+	</div>
+		)
+}
 
 export default App;
